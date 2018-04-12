@@ -7,7 +7,7 @@ var _money=require('./money.mask');var _money2=_interopRequireDefault(_money);
 var _onlyNumbers=require('./only-numbers.mask');var _onlyNumbers2=_interopRequireDefault(_onlyNumbers);
 var _zipCode=require('./zip-code.mask');var _zipCode2=_interopRequireDefault(_zipCode);
 var _creditCard=require('./credit-card.mask');var _creditCard2=_interopRequireDefault(_creditCard);
-var _cpfCnpj=require('./cpf-cnpj');var _cpfCnpj2=_interopRequireDefault(_cpfCnpj);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}
+var _cpfCnpj=require('./cpf-cnpj.mask');var _cpfCnpj2=_interopRequireDefault(_cpfCnpj);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}
 
 module.exports.CelPhoneMask=_celPhone2.default;
 module.exports.CnpjMask=_cnpj2.default;
